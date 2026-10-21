@@ -1,0 +1,14 @@
+torch>=2.4
+diffusers==0.37.1
+transformers>=4.45
+accelerate
+safetensors
+numpy
+pandas
+pillow
+tqdm
+# evaluation
+clean-fid
+scipy
+torchvision
+matplotlib

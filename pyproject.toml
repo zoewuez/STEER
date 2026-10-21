@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steer"
+version = "0.1.0"
+description = "Tempered score rescaling with replica exchange for diffusion models"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["torch"]
+
+[tool.setuptools]
+packages = ["steer"]

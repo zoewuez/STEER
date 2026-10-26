@@ -1,6 +1,6 @@
 <div align="center">
 
-# STEER
+# Diverse Low-Temperature Diffusion Sampling through Replica Exchange
 
 [Zoe Wu](https://zoewu.com) · [Haldun Balim](https://haldunbalim.github.io/) · [Yilun Du](https://yilundu.github.io/)
 

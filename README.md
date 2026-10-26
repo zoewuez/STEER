@@ -1,4 +1,14 @@
+<div align="center">
+
 # STEER
+
+[Zoe Wu](https://zoewu.com) · [Haldun Balim](https://haldunbalim.github.io/) · [Yilun Du](https://yilundu.github.io/)
+
+[Paper](#) · [Project page](https://zoewu.com/STEER) · [BibTeX](#citation)
+
+<img src="assets/key_video.gif" alt="STEER overview" width="100%">
+
+</div>
 
 STEER augments temporal score rescaling (TSR) with replica exchange. A ladder of
 temperatures is simulated in parallel; each replica denoises with the noise
@@ -122,4 +132,14 @@ All experiments share the flags `--sampler`, `--lam_start`, `--lam_end`,
 ```bash
 pip install pytest
 pytest tests
+```
+
+## Citation
+
+```bibtex
+@article{wu2026steer,
+  title   = {Diverse Low-Temperature Diffusion Sampling through Replica Exchange},
+  author  = {Wu, Zoe and Balim, Haldun and Du, Yilun},
+  year    = {2026}
+}
 ```
